@@ -10,20 +10,18 @@ A real estate agency in Seattle WA wants to predict the housing prices in order 
 
 ### Exploratory Data Analysis (EDA)
 
-
-
-
-
+`mix.jpeg`
 
 ### Statistical Test
 
-Two-Sample T-test
-Chi-square Test
+Two-Sample T-test \
+Chi-square Test \
 ANOVA
 
 ## Data Preparation
 
 ### Data Cleaning & Feature Engineering
+
 The rows with extreme values is considered. Identify categorical variables in the data set and create dummy columns to numeric format through one-hot encoding. New features are generated.
 
 ### Interaction Features
@@ -36,12 +34,13 @@ Calculation of correlation and VIF.
 ## Modeling
 
 ### Data Split and Normalization
-
+Data is split to training and testing data, and then standardized with respect to normal distribution.
 
 ### Linear Regression
 Fit the model to the training data. Use the model to predict on the training set and the test set. Evaluate the training and test predictions using RMSE. Determine if the model is overfit.
 
 ### Non-linear transformations
+Polynomial features are implemented to investigate the effect of the non-linear terms.
 
 ### Feature Selection Techniques
 KBest
@@ -49,6 +48,12 @@ Forward Selection
 RFECV
 
 ### Lasso and Ridge
+Except ordinary least squares, gradient descent algorithms are also tested.
+
+## Evaluation
+The housing prices is predicted for Kings County in Seattle WA. The model solve the problems for pridiction satisfactorily. New features are created to understand the questions. In any of these cases, it is also totally encouraged to revisit the earlier steps to optimze the features and model techniques.
+
+
 
 ## Annotation
 Column Names and descriptions for Kings County Data Set
