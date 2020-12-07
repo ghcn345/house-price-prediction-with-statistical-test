@@ -48,6 +48,9 @@ Calculation of correlation and VIF.
 Data is split to training and testing data, and then standardized with respect to normal distribution.
 
 ### Linear Regression
+
+![graph](Images/resi.jpeg)
+
 Fit the model to the training data. Use the model to predict on the training set and the test set. Evaluate the training and test predictions using RMSE. Determine if the model is overfit.
 
 ### Non-linear transformations
