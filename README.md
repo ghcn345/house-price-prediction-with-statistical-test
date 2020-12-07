@@ -12,25 +12,46 @@ A real estate agency in Seattle WA wants to predict the housing prices in order 
 
 
 
-## GitHub Repository
 
-A GitHub repo is a good way to keep track of your work, but also to display the work you did to future employers. Your GitHub should contain the following:
 
-- A `README.md` that briefly describes the project and the files within the repo.
-- Your cleaned and annotated notebook showing your work.
-- A folder with all of your 'working' notebooks where you played around with your data and the modeling process.
 
-## Data Set Information
+### Statistical Test
 
-This data set contains information about houses that were sold in the Seattle area during the last decade. Below is a description of the column names, to help you understand what the data represents. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions relating to what the data means. 
+Two-Sample T-test
+Chi-square Test
+ANOVA
 
-Like every data set, there are some irregularities and quirks. Trust me, there wasn't a house sold with 33 bedrooms, even though the data says there was. *You have to decide how you want to handle that example*. Also, some houses were sold more than once within the time frame of this dataset. Think about how that can be useful information in predicting the selling price.
+## Data Preparation
 
-As you go through this modeling process, think about what determines how much someone will pay for a house.  For example, the larger the house is, the more people will pay for it. If you understand why certain houses cost more than others and represent that in your model, it will be a more accurate model.  
+### Data Cleaning & Feature Engineering
+The rows with extreme values is considered. Identify categorical variables in the data set and create dummy columns to numeric format through one-hot encoding. New features are generated.
 
-Have fun!
+### Interaction Features
+Interaction in a non-additive manner when affecting a third variable.
 
-# Column Names and descriptions for Kings County Data Set
+### Multicollinearity
+
+Calculation of correlation and VIF.
+
+## Modeling
+
+### Data Split and Normalization
+
+
+### Linear Regression
+Fit the model to the training data. Use the model to predict on the training set and the test set. Evaluate the training and test predictions using RMSE. Determine if the model is overfit.
+
+### Non-linear transformations
+
+### Feature Selection Techniques
+KBest
+Forward Selection
+RFECV
+
+### Lasso and Ridge
+
+## Annotation
+Column Names and descriptions for Kings County Data Set
 * **id** - unique ID for a house
 * **date** - Date day house was sold
 * **price** - Price is prediction target
