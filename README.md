@@ -1,4 +1,4 @@
-![graph](Images/KinsCounty.jpeg)
+![graph](Images/KingsCounty.jpeg=1600x1200)
 
 # Kings County Housing Prices Prediction
 
@@ -14,7 +14,7 @@ A real estate agency in Seattle WA wants to predict the housing prices in order 
 
 ### Exploratory Data Analysis (EDA)
 
-![graph](Images/mix.jpeg=250x)
+![graph](Images/mix.jpeg)
 
 ### Statistical Test
 
