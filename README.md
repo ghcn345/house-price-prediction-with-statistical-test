@@ -1,4 +1,6 @@
-![graph](Images/KingsCounty.jpeg, {width="400px"})
+<p>
+<img src="Images/KingsCounty.jpeg" width="300" height="100">
+</p>
 
 # Kings County Housing Prices Prediction
 
