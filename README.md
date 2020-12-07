@@ -1,5 +1,5 @@
 <p>
-<img src="Images/KingsCounty.jpeg" width="600" height="200">
+<img src="Images/KingsCounty.jpeg" width="900" height="900">
 </p>
 
 
