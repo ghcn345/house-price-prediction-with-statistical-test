@@ -10,10 +10,10 @@ A real estate agency in Seattle WA wants to predict the housing prices in order 
 
 ### Exploratory Data Analysis (EDA)
 
-`mix.jpeg`
+![graph](Data/mix.jpeg)
 
 ### Statistical Test
-
+![graph](Data/waterfront.jpeg)
 Two-Sample T-test \
 Chi-square Test \
 ANOVA
@@ -21,7 +21,7 @@ ANOVA
 ## Data Preparation
 
 ### Data Cleaning & Feature Engineering
-
+![graph](Data/month.jpeg)
 The rows with extreme values is considered. Identify categorical variables in the data set and create dummy columns to numeric format through one-hot encoding. New features are generated.
 
 ### Interaction Features
