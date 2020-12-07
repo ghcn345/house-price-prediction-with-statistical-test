@@ -42,6 +42,9 @@ Interaction in a non-additive manner when affecting a third variable.
 
 Calculation of correlation and VIF.
 
+![graph](Images/heatmap.jpeg)
+
+
 ## Modeling
 
 ### Data Split and Normalization
