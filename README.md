@@ -15,6 +15,8 @@ A real estate agency in Seattle WA wants to predict the housing prices in order 
 
 ## Data Understanding
 
+![graph](Images/ks.png)
+
 ### Exploratory Data Analysis (EDA)
 
 ![graph](Images/mix.jpeg)
