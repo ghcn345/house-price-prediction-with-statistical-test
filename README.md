@@ -1,4 +1,7 @@
+![graph](Images/KingsCounty.jpeg)
 # Kings County Housing Prices Prediction
+
+**Authors**: Ning Chen
 
 This project created a model that can predict the prices of homes sold in the Seattle, WA area. All kinds of features related to the houses are provided. Linear and non-linear machine learning methods in scikit-learn library are used to construct the models with selected data. Houseing prices are predicted within a reasonable error range.
 
@@ -10,10 +13,10 @@ A real estate agency in Seattle WA wants to predict the housing prices in order 
 
 ### Exploratory Data Analysis (EDA)
 
-![graph](Data/mix.jpeg)
+![graph](Images/mix.jpeg)
 
 ### Statistical Test
-![graph](Data/waterfront.jpeg)
+![graph](Images/waterfront.jpeg)
 Two-Sample T-test \
 Chi-square Test \
 ANOVA
@@ -21,7 +24,7 @@ ANOVA
 ## Data Preparation
 
 ### Data Cleaning & Feature Engineering
-![graph](Data/month.jpeg)
+![graph](Images/month.jpeg)
 The rows with extreme values is considered. Identify categorical variables in the data set and create dummy columns to numeric format through one-hot encoding. New features are generated.
 
 ### Interaction Features
@@ -53,10 +56,31 @@ Except ordinary least squares, gradient descent algorithms are also tested.
 ## Evaluation
 The housing prices is predicted for Kings County in Seattle WA. The model solve the problems for pridiction satisfactorily. New features are created to understand the questions. In any of these cases, it is also totally encouraged to revisit the earlier steps to optimze the features and model techniques.
 
+## For More Information
+
+Please review the full analysis in [our Jupyter Notebook](https://github.com/ghcn345/house-price-pridiction-with-statistical-test) or the [presentation](https://github.com/ghcn345/house-price-pridiction-with-statistical-test/blob/master/CRISP-DM_Housing%20Prices%20Prediction.pdf).
+
+For any additional questions, please contact **Ning Chen—chen.ning345@gmail.com**
+
+## Repository Structure
+
+Description of the structure of the repository and its contents:
+
+```
+├── README.md                                     <- The top-level README for reviewers of this project
+├── Housing Prices Prediction.ipynb               <- Narrative documentation for prediction in Jupyter notebook
+├── holdout_features.ipynb                        <- Narrative documentation for holdout in Jupyter notebook
+├── CRISP-DM_Housing Prices Prediction.pdf        <- PDF version of project presentation
+├── Data                                          <- Both sourced externally and generated from code
+└── Images                                        <- Both sourced externally and generated from code
+
+```
 
 
 ## Annotation
+
 Column Names and descriptions for Kings County Data Set
+
 * **id** - unique ID for a house
 * **date** - Date day house was sold
 * **price** - Price is prediction target
