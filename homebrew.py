@@ -1,4 +1,15 @@
 import statsmodels.api as sm
+import statsmodels.formula.api as smf
+
+import numpy as np
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error, r2_score
+
+
 def stepwise_selection(X, y, 
                        initial_list=[], 
                        threshold_in=0.01, 
@@ -52,7 +63,7 @@ def stepwise_selection(X, y,
     return included
 
 
-import statsmodels.formula.api as smf
+
 def forward_selected(data, response):
     """Linear model designed by forward selection.
 
@@ -90,3 +101,31 @@ def forward_selected(data, response):
     return model
 
 
+
+
+def polynomial(dfn, target, rs=34, size=0.2, scale=True, degrees=2, r=True):
+
+    X_train, X_test, y_train, y_test = train_test_split(dfn, target, random_state=rs, test_size=size)
+
+    if scale:
+        scaler = StandardScaler()
+        scaler.fit(X_train)
+        X_train = pd.DataFrame(data=scaler.transform(X_train), columns=dfn.columns)
+        X_test = pd.DataFrame(data=scaler.transform(X_test), columns=dfn.columns)
+
+    if r: 
+        for degree in range(1,degrees+1):
+            poly = PolynomialFeatures(degree)
+            X_poly_train = poly.fit_transform(X_train)
+            reg_poly = LinearRegression().fit(X_poly_train, y_train)  
+            y_train_pred = reg_poly.predict(X_poly_train)
+            X_poly_test = poly.transform(X_test)
+            y_test_pred = reg_poly.predict(X_poly_test)
+            r2_train = r2_score(y_train, y_train_pred)
+            r2_test = r2_score(y_test, y_test_pred)
+            train_rmse = np.sqrt(mean_squared_error(y_train, y_train_pred))
+            test_rmse = np.sqrt(mean_squared_error(y_test, y_test_pred))
+            print('Training: degree={}, R2={}, RMSE={}'.format(degree, r2_train, train_rmse))
+            print('Testing: degree={}, R2={}, RMSE={}'.format(degree, r2_test,test_rmse))
+
+    return X_train, X_test, y_train, y_test
