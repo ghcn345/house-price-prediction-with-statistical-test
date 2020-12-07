@@ -1,4 +1,5 @@
-![graph](Images/KingsCounty.jpeg)
+![graph](Images/KinsCounty.jpeg)
+
 # Kings County Housing Prices Prediction
 
 **Authors**: Ning Chen
@@ -16,7 +17,9 @@ A real estate agency in Seattle WA wants to predict the housing prices in order 
 ![graph](Images/mix.jpeg)
 
 ### Statistical Test
+
 ![graph](Images/waterfront.jpeg)
+
 Two-Sample T-test \
 Chi-square Test \
 ANOVA
@@ -24,7 +27,9 @@ ANOVA
 ## Data Preparation
 
 ### Data Cleaning & Feature Engineering
+
 ![graph](Images/month.jpeg)
+
 The rows with extreme values is considered. Identify categorical variables in the data set and create dummy columns to numeric format through one-hot encoding. New features are generated.
 
 ### Interaction Features
