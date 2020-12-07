@@ -1,6 +1,6 @@
 <p>
-<img src="Images/KingsCounty.jpeg" width="300" height="100">
-</p>
+<img src="Images/KingsCounty.jpeg", width="300", height="100">
+</p>s
 
 # Kings County Housing Prices Prediction
 
