@@ -66,7 +66,7 @@ The housing prices is predicted for Kings County in Seattle WA. The model solve 
 
 ## For More Information
 
-Please review the full analysis in [our Jupyter Notebook](https://github.com/ghcn345/house-price-pridiction-with-statistical-test) or the [presentation](https://github.com/ghcn345/house-price-pridiction-with-statistical-test/blob/master/CRISP-DM_Housing%20Prices%20Prediction.pdf).
+Please review the full analysis in [our Jupyter Notebook](https://github.com/ghcn345/house-price-pridiction-with-statistical-test/blob/master/Housing%20Prices%20Prediction.ipynb) or the [presentation](https://github.com/ghcn345/house-price-pridiction-with-statistical-test/blob/master/CRISP-DM_Housing%20Prices%20Prediction.pdf).
 
 For any additional questions, please contact **Ning Chen—chen.ning345@gmail.com**
 
