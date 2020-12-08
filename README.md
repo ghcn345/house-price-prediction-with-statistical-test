@@ -25,15 +25,15 @@ A real estate agency in Seattle WA wants to predict the housing prices in order 
 
 ![graph](Images/waterfront.jpeg)
 
-Two-Sample T-test \
-Chi-square Test \
-ANOVA
+Two-Sample T-test & Welch’s T-test  \
+Chi-square Test  \
+ANOVA and post hoc analysis
 
 ## Data Preparation
 
 ### Data Cleaning & Feature Engineering
 
-![graph](Images/month.jpeg)
+![graph](Images/test.png)
 
 The rows with extreme values is considered. Identify categorical variables in the data set and create dummy columns to numeric format through one-hot encoding. New features are generated.
 
