@@ -67,8 +67,8 @@ Fit the model to the training data. Use the model to predict on the training set
 Polynomial features are implemented to investigate the effect of the non-linear terms.
 
 ### Feature Selection Techniques
-KBest
-Forward Selection
+KBest \
+Forward Selection \
 RFECV
 
 ### Lasso and Ridge
