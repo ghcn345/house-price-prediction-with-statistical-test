@@ -21,7 +21,7 @@ A real estate agency in Seattle WA wants to predict the housing prices in order 
 ![graph](Images/mix.png)
 
 
-### Geopandas
+### Heatmap
 
 ![graph](Images/ks.png)
 
