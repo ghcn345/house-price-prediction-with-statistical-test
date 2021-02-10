@@ -7,7 +7,7 @@
 
 **Authors**: Ning Chen
 
-This project created a model that can predict the prices of homes sold in the Seattle, WA area. All kinds of features related to the houses are provided. Linear and non-linear machine learning methods in scikit-learn library are used to construct the models with selected data. Houseing prices are predicted within a reasonable error range.
+This project created a model that can predict the prices of homes sold in the Seattle, WA area. All kinds of features related to the houses are provided. Linear and non-linear machine learning methods in scikit-learn library are used to construct the models with selected data. Housing prices are predicted within a reasonable error range.
 
 ## Business Understanding
 
