@@ -30,16 +30,19 @@ A real estate agency in Seattle WA wants to predict the housing prices in order 
 
 ![graph](Images/waterfront.jpeg)
 
-* Two-Sample T-test & Welch’s T-test  \
+* Two-Sample T-test & Welch’s T-test
+
 H0: The sample mean of prices of the houses with a view to a waterfront or not are the same. \
 Ha: The sample mean of prices of the houses with a view to a waterfront or not are different.
 
 * Chi-square Test
+
 H0: Different conditions of the houses has been viewed the same time. \
 Ha: Different conditions of the houses has been viewed different time.
 
 
 * ANOVA and post hoc analysis (Tukey HSD Test)
+
 H0: The sample mean of prices of the houses with different grading are the same. \
 Ha: The sample mean of prices of the houses with different grading are different.
 
